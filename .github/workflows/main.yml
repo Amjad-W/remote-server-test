@@ -19,4 +19,4 @@ jobs:
             cd ~/sample
             git pull origin main
             npm install
-            pm2 restart sample
+            pm2 restart ecosystem.config.js
